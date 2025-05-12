@@ -9,7 +9,7 @@ const config = {
     },
 
     contents: {
-        title: "Discover a New Way to Gift with Gifty",
+        title: "Gifting Just Got Gamified—Play, Give, Delight!",
         markOfTitle: "Gifty",
         description: `Step into a world of delightful surprises with Gifty. Send and receive
 personalized digital gifts unlocked by riddles, locations, timers, and lucky spins —
