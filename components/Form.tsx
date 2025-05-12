@@ -1,7 +1,6 @@
 "use client";
 
 import { useState } from "react";
-// config
 import config from "@/config/general";
 
 const findRequestURL = (mail: string) => {
@@ -11,9 +10,7 @@ const findRequestURL = (mail: string) => {
   const accountID = getNumbers[0];
   const formID = getNumbers[1];
 
-  const requestURL = `https://assets.mailerlite.com/jsonp/${accountID}/forms/${formID}/subscribe?fields[email]=${mail}`;
-
-  return requestURL;
+  return `https://assets.mailerlite.com/jsonp/${accountID}/forms/${formID}/subscribe?fields[email]=${mail}`;
 };
 
 const Form = () => {
@@ -21,7 +18,7 @@ const Form = () => {
   const [loading, setLoading] = useState<boolean>(false);
   const [message, setMessage] = useState<string>("");
 
-  const onSubmit = (e: any) => {
+  const onSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     setLoading(true);
     fetch(findRequestURL(mail), {
@@ -38,8 +35,12 @@ const Form = () => {
       .catch(() => setMessage("Something went wrong, please try again."))
       .finally(() => {
         setMail("");
+        setLoading(false);
       });
   };
+
+  const isSuccess = message.toLowerCase().includes("thanks");
+
   return (
     <form onSubmit={onSubmit}>
       <div className="relative">
@@ -62,14 +63,22 @@ const Form = () => {
         <div className="mt-1 ml-2 sm:mt-3 sm:ml-3 flex-1 sm:flex-auto w-full sm:w-auto">
           <button
             type="submit"
-            className="relative sm:absolute right-2 sm:top-2 w-full sm:w-auto block  rounded-sm bg-activeButton py-3 px-4 font-medium text-white shadow hover:bg-activeButton disabled:cursor-not-allowed"
+            className="relative sm:absolute right-2 sm:top-2 w-full sm:w-auto block rounded-sm bg-activeButton py-3 px-4 font-medium text-white shadow hover:bg-activeButton disabled:cursor-not-allowed"
             disabled={mail === "" || loading}
           >
             Join Waitlist
           </button>
         </div>
       </div>
-      <span className="text-sm px-2 italic text-red-500">{message}</span>
+      {message && (
+        <span
+          className={`text-sm px-2 italic ${
+            isSuccess ? "text-green-500" : "text-red-500"
+          }`}
+        >
+          {message}
+        </span>
+      )}
     </form>
   );
 };

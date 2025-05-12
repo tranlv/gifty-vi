@@ -42,7 +42,7 @@ const Hero = () => {
       </div>
       <Image
         src="/mobile.jpg"
-        alt="mobile2"
+        alt="mobile"
         width={648}
         height={300}
         className="rounded-sm xl:w-6/12 xl:max-w-[200px] w-11/12 h-max"

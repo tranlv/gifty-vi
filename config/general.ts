@@ -2,7 +2,7 @@ const config = {
     domain: "gifty.app",
     title: "Join the Waitlist | Gifty",
     description: "Send and receive magical digital gifts. Unlock surprises with riddles, timers, lucky spins, and scavenger hunts. Gifty is coming soon – join the waitlist!",
-    subscribeForm: "https://dashboard.mailerlite.com/forms/631411/101265918935434456/share",
+    subscribeForm: "https://dashboard.mailerlite.com/forms/1514891/154158299253573617/share",
 
     socials: {
         twitter: "https://x.com/giftyapp", // Update with your real handle
