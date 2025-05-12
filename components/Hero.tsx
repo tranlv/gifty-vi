@@ -41,7 +41,7 @@ const Hero = () => {
         <Form />
       </div>
       <Image
-        src="/mobile2.jpg"
+        src="/mobile.jpg"
         alt="mobile2"
         width={648}
         height={300}
