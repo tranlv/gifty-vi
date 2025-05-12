@@ -41,11 +41,11 @@ const Hero = () => {
         <Form />
       </div>
       <Image
-        src="/mobile.png"
-        alt="landing"
+        src="/mobile2.jpg"
+        alt="mobile2"
         width={648}
-        height={500}
-        className="rounded-sm xl:w-6/12 xl:max-w-[648px] w-11/12 h-max"
+        height={300}
+        className="rounded-sm xl:w-6/12 xl:max-w-[200px] w-11/12 h-max"
       />
     </section>
   );
