@@ -1,109 +1,112 @@
 const config = {
-    domain: "theproduct.com",
-    title: "Waitlist Page | The Product",
-    description: "Elevate your texts with the perfect emojis. Usemoji.app is coming soon! Join the waiting list for updates and exclusive access.",
+    domain: "gifty.app",
+    title: "Join the Waitlist | Gifty",
+    description: "Send and receive magical digital gifts. Unlock surprises with riddles, timers, lucky spins, and scavenger hunts. Gifty is coming soon – join the waitlist!",
     subscribeForm: "https://dashboard.mailerlite.com/forms/631411/101265918935434456/share",
 
     socials: {
-        twitter: "https://x.com/beratbozkurt0",
+        twitter: "https://x.com/giftyapp", // Update with your real handle
     },
 
     contents: {
-        title: "Discover Your Ideal Experience with The Product",
-        markOfTitle: "The Product", // its for marking the title. The text must contain on title. If not, it will be ignored.
-        description: `Step into a realm of possibilities with The Product. Immerse yourself
-        in a shopping journey where intuitive features and cutting-edge design
-        come together to enhance your every selection.`,
+        title: "Discover a New Way to Gift with Gifty",
+        markOfTitle: "Gifty",
+        description: `Step into a world of delightful surprises with Gifty. Send and receive
+personalized digital gifts unlocked by riddles, locations, timers, and lucky spins —
+or hide them in the real world for others to discover.`,
 
         about: [
             {
                 id: 1,
-                emoji: "💡",
-                title: "Innovative Design",
-                description: "The Product is designed to be a seamless experience for all users. Our team has worked tirelessly to create a platform that is both intuitive and visually stunning."
+                emoji: "🎯",
+                title: "Scavenger Hunt Mode",
+                description: "Public gifts can be hidden on a map. Let friends and strangers explore and unlock them in real locations — like Pokémon GO, but with gifts!"
             },
             {
                 id: 2,
-                emoji: "🚀",
-                title: "Fast and Efficient",
-                description: "We understand that your time is valuable. That's why we've optimized The Product to be as fast and efficient as possible. Spend less time shopping and more time enjoying your purchases."
+                emoji: "🔐",
+                title: "Private Gifting",
+                description: "Send meaningful, locked gifts just for your friends. Only they can open it with the right answer, at the right time, or in the right place."
             },
             {
                 id: 3,
-                emoji: "🌎",
-                title: "Global Reach",
-                description: "The Product is available to users all around the world. No matter where you are, you can access our platform and discover the perfect product for you."
+                emoji: "🎁",
+                title: "Interactive Gift Challenges",
+                description: "Wrap gifts inside experiences — riddles, countdowns, GPS tasks, or lucky draws — making every gift personal and memorable."
             }
         ],
 
         howWorks: [
             {
-                title: "Install the extension",
-                description: "The Product is available as a browser extension. Simply install it and you're ready to go!"
+                title: "Create and hide your gift",
+                description: "Choose a gift (image, video, message...) and wrap it with your preferred unlock method."
             },
             {
-                title: "Select your text",
-                description: "Highlight any text on any website and The Product will automatically will find emoji that match your selection."
+                title: "Choose public or private",
+                description: "Send directly to a friend or drop it publicly for anyone to find on a real-world scavenger hunt."
             },
             {
-
-                title: "Personalize suggestions",
-                description: "Customize your emoji suggestions based on your preferences and writing style."
+                title: "Let the challenge begin",
+                description: "Friends solve riddles, wait for countdowns, spin wheels, or visit places to unlock your surprise."
             },
             {
-                title: "Seamless integration",
-                description: "Enjoy effortless integration with your browser, making emoji suggestions readily available."
+                title: "Unlock the joy",
+                description: "They'll receive the gift only when they complete your challenge — a moment they’ll remember."
             },
             {
-                title: "Copy and paste",
-                description: "Once you've selected your emoji, simply copy it and paste it wherever you like. It's that easy!"
+                title: "Track your magic",
+                description: "Monitor gift views, unlock attempts, and engagement right from your dashboard."
             },
         ],
 
         price: {
-            description: "Unlock endless emoji possibilities with our monthly subscription. Cancel anytime, stress-free!",
-            price: "9$",
+            description: "Gifty is free to start! Upgrade for advanced unlock types, branding options, analytics, and more.",
+            price: "$5/month",
 
-            advantages: ['Cancel anytime.', 'Analyze text emotions for suitable emoji suggestions.', 'Unlimited emoji access: Explore vast library.', 'Bullet points yield perfect results.', 'Ease of use.']
+            advantages: [
+                'Send up to 3 gifts/week for free.',
+                'Access public map-based scavenger gifting.',
+                'Unlock premium riddles and timer flows.',
+                'Add branding, themes, and custom cover images.',
+                'Track who unlocked what, when, and how.'
+            ]
         },
 
         faq: [
             {
-                question: "What is The Product?",
-                answer: "The Product is a browser extension that suggests emoji based on your text selection. It's designed to make your online experience more fun and engaging."
+                question: "What is Gifty?",
+                answer: "Gifty is a digital gifting app where gifts are unlocked through interactive challenges like riddles, timers, GPS locations, or lucky wheels."
             },
             {
-                question: "How do I install The Product?",
-                answer: "The Product is available as a browser extension. Simply install it and you're ready to go!"
-            },
-
-            {
-                question: "How do I use The Product?",
-                answer: "Highlight any text on any website and The Product will automatically will find emoji that match your selection."
+                question: "Can I send private gifts?",
+                answer: "Yes! You can send a personal gift directly to a friend with a private unlock link."
             },
             {
-                question: "Is The Product free?",
-                answer: "The Product is available as a monthly subscription. You can cancel anytime, stress-free!"
+                question: "What is the scavenger hunt feature?",
+                answer: "You can place a gift on the public map and challenge users to find and unlock it in real life — like a gift-based treasure hunt!"
             },
             {
-                question: "Can I customize my emoji suggestions?",
-                answer: "Yes! You can personalize your emoji suggestions based on your preferences and writing style."
+                question: "How do recipients unlock gifts?",
+                answer: "They solve a riddle, wait for a timer, arrive at a location, or spin a lucky wheel — depending on what you choose."
             },
             {
-                question: "Is The Product available globally?",
-                answer: "Yes! The Product is available to users all around the world."
+                question: "What can I send?",
+                answer: "Send images, videos, links, or heartfelt text — anything meaningful, wrapped in a game-like experience."
             },
             {
-                question: "How do I cancel my subscription?",
-                answer: "You can cancel your subscription anytime. Simply go to your account settings and click 'cancel subscription'."
+                question: "Do I need to install an app?",
+                answer: "Nope. Gifty works in any modern browser, no installation required."
             },
             {
-                question: "How do I contact support?",
-                answer: "You can contact our support team by emailing support@theproduct.com."
+                question: "Is my gift private?",
+                answer: "Gifts are private when they’re sent directly from someone to you. Only the recipient with the unique unlock link can access and open it. Public gifts, like scavenger hunt drops, are discoverable by anyone."
+            },
+            {
+                question: "How do I get help?",
+                answer: "Email us at tranlyvu.official@gmail.com — we’re here to help!"
             }
         ]
     }
 }
-
 
 export default config;

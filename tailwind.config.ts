@@ -13,7 +13,7 @@ const config: Config = {
         grayBackground: "#F7F7F7",
         black: "#000",
         activeButton: "#323832",
-        primary: "#f4c64a",
+        primary: "#FF3B3F", // Updated to red
         white: "white"
       },
       borderRadius: {
@@ -24,4 +24,5 @@ const config: Config = {
   },
   plugins: [],
 }
+
 export default config

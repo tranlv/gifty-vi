@@ -23,7 +23,6 @@ const Footer = () => {
             </span>
             <ul className="font-medium flex flex-col gap-2 mt-4 text-activeButton">
               <li>How it works</li>
-              <li>Price</li>
               <li>FAQ</li>
               <li>Support</li>
             </ul>
