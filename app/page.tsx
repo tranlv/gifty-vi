@@ -8,7 +8,6 @@ export default function Home() {
       <About />
       <HowWorks />
       <Faq />
-      <Footer />
     </main>
   );
 }
