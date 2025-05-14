@@ -9,11 +9,9 @@ const config = {
     },
 
     contents: {
-        title: "Gifting Just Got Gamified—Play, Give, Delight!",
+        title: "Location-Based Gifting App: Discover, Play, and Delight",
         markOfTitle: "Gifty",
-        description: `Step into a world of delightful surprises with Gifty. Send and receive
-personalized digital gifts unlocked by riddles, locations, timers, and lucky spins —
-or hide them in the real world for others to discover.`,
+        description: `Gifty transforms gift-giving into an adventurous experience. Embark on real-world scavenger hunts to uncover hidden gifts—be it vouchers, samples, or surprises—placed by friends or your favorite brands. Enhance the excitement with interactive challenges like solving riddles, waiting out timers, or spinning a lucky wheel. Gifty makes every gift a journey worth taking.`,
 
         about: [
             {
