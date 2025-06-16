@@ -13,7 +13,7 @@ const HowWorks = () => {
       <Title label="How it works" />
       <div className="flex xl:flex-row flex-col gap-8 justify-center">
         <Image
-          src="/landing.png"
+          src="/landing.jpg"
           alt="web"
           width={460}
           height={330}
