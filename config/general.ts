@@ -1,107 +1,99 @@
 const config = {
     domain: "gifty.app",
     title: "Join the Waitlist | Gifty",
-    description: "Send and receive magical digital gifts. Unlock surprises with riddles, timers, lucky spins, and scavenger hunts. Gifty is coming soon – join the waitlist!",
+    description: "Turn your city into a playground of hidden gifts. Discover real rewards in real places — join the waitlist now!",
     subscribeForm: "https://dashboard.mailerlite.com/forms/1514891/154158299253573617/share",
 
     socials: {
-        twitter: "https://x.com/giftyapp", // Update with your real handle
+        twitter: "https://x.com/giftyapp",
     },
 
     contents: {
-        title: "Location-Based Gifting App: Discover, Play, and Delight",
+        title: "Gifty – Hunt for Real Gifts Near You",
         markOfTitle: "Gifty",
-        description: `Gifty transforms gift-giving into an adventurous experience. Embark on real-world scavenger hunts to uncover hidden gifts—be it vouchers, samples, or surprises—placed by friends or your favorite brands. Enhance the excitement with interactive challenges like solving riddles, waiting out timers, or spinning a lucky wheel. Gifty makes every gift a journey worth taking.`,
+        description: `Gifty is a gift hunt app that makes your everyday walk exciting. Discover digital gifts hidden around your city — like free coffee, discounts, and surprise treats. Open the map, go explore, and unlock real rewards. It's completely free, no spam, no catch.`,
 
         about: [
             {
                 id: 1,
-                emoji: "🎯",
-                title: "Scavenger Hunt Mode",
-                description: "Public gifts can be hidden on a map. Let friends and strangers explore and unlock them in real locations — like Pokémon GO, but with gifts!"
+                emoji: "🗺️",
+                title: "Find Gifts Nearby",
+                description: "Open Gifty to explore a map of hidden digital gifts around your city."
             },
             {
                 id: 2,
-                emoji: "🔐",
-                title: "Private Gifting",
-                description: "Send meaningful, locked gifts just for your friends. Only they can open it with the right answer, at the right time, or in the right place."
+                emoji: "🚶‍♀️",
+                title: "Unlock with Your Feet",
+                description: "Walk to the gift’s location and it magically unlocks — no QR codes, no installs, just fun."
             },
             {
                 id: 3,
                 emoji: "🎁",
-                title: "Interactive Gift Challenges",
-                description: "Wrap gifts inside experiences — riddles, countdowns, GPS tasks, or lucky draws — making every gift personal and memorable."
+                title: "Get Real Rewards",
+                description: "Gifts might be a free drink, a discount, or something unexpected. Every day’s a new surprise."
             }
         ],
 
         howWorks: [
             {
-                title: "Create and hide your gift",
-                description: "Choose a gift (image, video, message...) and wrap it with your preferred unlock method."
+                title: "Step 1: Browse the Map",
+                description: "See what gifts are waiting around you. New ones drop regularly — don’t miss out!"
             },
             {
-                title: "Choose public or private",
-                description: "Send directly to a friend or drop it publicly for anyone to find on a real-world scavenger hunt."
+                title: "Step 2: Go There",
+                description: "Head to the gift location. Your phone will detect when you arrive."
             },
             {
-                title: "Let the challenge begin",
-                description: "Friends solve riddles, wait for countdowns, spin wheels, or visit places to unlock your surprise."
+                title: "Step 3: Unlock the Gift",
+                description: "Once you're there, the gift unlocks instantly. Enjoy it or save it for later!"
             },
             {
-                title: "Unlock the joy",
-                description: "They'll receive the gift only when they complete your challenge — a moment they’ll remember."
-            },
-            {
-                title: "Track your magic",
-                description: "Monitor gift views, unlock attempts, and engagement right from your dashboard."
-            },
+                title: "Step 4: Repeat and Share",
+                description: "Collect more gifts and invite friends to hunt with you. It’s more fun together!"
+            }
         ],
 
         price: {
-            description: "Gifty is free to start! Upgrade for advanced unlock types, branding options, analytics, and more.",
-            price: "$5/month",
+            description: "Gifty is 100% free. No sign-up fees, no subscriptions — just pure gifting fun.",
+            price: "Free",
 
             advantages: [
-                'Send up to 3 gifts/week for free.',
-                'Access public map-based scavenger gifting.',
-                'Unlock premium riddles and timer flows.',
-                'Add branding, themes, and custom cover images.',
-                'Track who unlocked what, when, and how.'
+                'Discover digital gifts hidden in your city.',
+                'Unlock real rewards just by showing up.',
+                'Enjoy daily surprises with zero spam.',
+                'No app installation needed — use it in your browser.',
+                'Invite friends and explore together.'
             ]
         },
 
         faq: [
             {
                 question: "What is Gifty?",
-                answer: "Gifty is a digital gifting app where gifts are unlocked through interactive challenges like riddles, timers, GPS locations, or lucky wheels."
+                answer: "Gifty is a real-world gift hunt app. You find digital gifts on a map, go to the spot, and unlock them for real-life rewards."
             },
             {
-                question: "Can I send private gifts?",
-                answer: "Yes! You can send a personal gift directly to a friend with a private unlock link."
+                question: "How do I use it?",
+                answer: "Open Gifty in your browser, find a gift near you, and walk to its location to unlock it."
             },
             {
-                question: "What is the scavenger hunt feature?",
-                answer: "You can place a gift on the public map and challenge users to find and unlock it in real life — like a gift-based treasure hunt!"
+                question: "What kinds of gifts can I get?",
+                answer: "You might get a free snack, a coffee, a discount, or even something completely unexpected!"
             },
             {
-                question: "How do recipients unlock gifts?",
-                answer: "They solve a riddle, wait for a timer, arrive at a location, or spin a lucky wheel — depending on what you choose."
-            },
-            {
-                question: "What can I send?",
-                answer: "Send images, videos, links, or heartfelt text — anything meaningful, wrapped in a game-like experience."
+                question: "Is it really free?",
+                answer: "Yes — Gifty is 100% free to use. No downloads, no fees, no spam."
             },
             {
                 question: "Do I need to install an app?",
-                answer: "Nope. Gifty works in any modern browser, no installation required."
+                answer: "Nope! Gifty works in your phone’s browser — no installation needed."
             },
             {
-                question: "Is my gift private?",
-                answer: "Gifts are private when they’re sent directly from someone to you. Only the recipient with the unique unlock link can access and open it. Public gifts, like scavenger hunt drops, are discoverable by anyone."
+                question: "Where does it work?",
+                answer: "We’re launching soon in selected cities. Sign up now to be the first to know when we go live near you!"
             },
             {
-                question: "How do I get help?",
-                answer: "Email us at tranlyvu.official@gmail.com — we’re here to help!"
+                question: "How do I join?",
+                answer: "Just sign up with your email and we’ll notify you when Gifty launches in your city!"
             }
         ]
     }
