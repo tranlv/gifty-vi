@@ -10,7 +10,7 @@ const HowWorks = () => {
 
   return (
     <div className="mb-24">
-      <Title label="How it works" />
+      <Title label="Cách Hoạt Động" />
       <div className="flex xl:flex-row flex-col gap-8 justify-center">
         <Image
           src="/landing.jpg"
